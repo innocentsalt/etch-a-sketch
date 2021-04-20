@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clickable {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border: 2px solid dodgerblue;
+}
+
+.heading {
+    margin: 20px auto;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.grid {
+    margin: 40px auto;
+    display: grid;
+    width: 500px;
+    height: 500px;
+}
+
+.grid div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
