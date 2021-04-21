@@ -32,7 +32,7 @@ function generateRandomColor() {
 
 function changeSize() {
     const grid = document.querySelector('.grid');
-    let size = window.prompt('grid size please\n("sky is the limit", if you wanna crash)', 16);
+    let size = window.prompt('grid size please 1~100\n("sky is the limit", if you wanna crash!)', 16);
     if (size < 0 || isNaN(parseInt(size))) return;
     grid.innerHTML = '';
     drawGrid(size);
